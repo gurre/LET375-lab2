@@ -10,7 +10,7 @@ public class CollectionOps {
 			
 		Iterator<T> it = l.iterator();
 			
-		// OM samlingen  är tom, skriv ut alla element.
+		// OM samlingen INTE är tom, skriv ut alla element.
 		if(!l.isEmpty()){
 			
 			System.out.print("[");
