@@ -6,7 +6,7 @@ import java.util.*;
 public class CollectionOps {
 
     // Put your code for print here ... 
-	public static <T> void print(Collection<T> l){
+	public static <T> void print(Collection<T> l){			// Uppg 2
 			
 		Iterator<T> it = l.iterator();
 			
@@ -30,9 +30,15 @@ public class CollectionOps {
 	}
     
 	
-    // Put your code for reverse here ...
+    // Put your code for reverse here ...				// Uppg 3
+	public static <T> List<T> reverse(List<T> l){
+		
+		Collections.reverse(l);
+		return l;
+	}
 
-    // Put your code for less here ...
+
+    // Put your code for less here ...					// Uppg 4
     
     // Example
     public static <T1,T2> Collection<T2>
