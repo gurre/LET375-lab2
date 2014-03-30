@@ -65,7 +65,7 @@ public class Main {
     CollectionOps.print(johanneberg);System.out.println();
 
 
-    ArrayList<String> lindholmen = new  ArrayList<String>();
+    List<String> lindholmen = new  ArrayList<String>();
     lindholmen.add("Saga");
     lindholmen.add("Svea");
     lindholmen.add("Jupiter");
@@ -76,8 +76,25 @@ public class Main {
     System.out.println( CollectionOps.less(johanneberg,lindholmen,stringcomp) );
 
     // Write code to test map here
+    List<Integer> l1 = new ArrayList<Integer>();
+    l1.add(3);
+    l1.add(-42);
+    l1.add(88);
+    l1.add(19);
+    l1.add(-37);
+    l1.add(0);
+    l1.add(18);
+    Collection<Integer> l2 = CollectionOps.map(new SignFunctor(),l1);
+    CollectionOps.print(l2);
+
 
     // Write code to test filter here
+
+
+
+
+    //List<Integer>l2 = filter(isEven,l1);
+    //System.out.print(l2); // [-42,88,0,18]
   }
 }
 
