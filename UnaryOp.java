@@ -1,3 +1,3 @@
 public interface UnaryOp<T,U> {
-    U op(T x);
+	U op(T x);
 }

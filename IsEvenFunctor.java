@@ -1,8 +1,8 @@
 import java.util.*;
 
-class IsEvenFunction implements UnaryPred {
-  public boolean pred(T x){
-
-
-  }
+class IsEvenFunctor implements UnaryPred<Integer>{
+	
+	public boolean pred(Integer x){
+		return x % 2 == 0;
+	}
 }

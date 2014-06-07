@@ -1,3 +1,3 @@
-public interface UnaryPred<T> {
-    boolean pred(T x);
+public interface UnaryPred <T> {
+	boolean pred(T x);
 }

@@ -1,6 +1,7 @@
 import java.util.*;
-public class SignFunctor implements UnaryOp<Double,Integer> {
-  public Integer op(Double x) {
-    return x.compareTo(0.0d);
-  }
+public class SignFunctor implements UnaryOp<Integer,Integer> {
+	
+	public Integer op(Integer x) {
+		return x.compareTo(0);
+	}
 } 
